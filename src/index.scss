@@ -1,5 +1,5 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 16px / 1 serif;
 }
 
 html {
@@ -9,4 +9,48 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: #f6ae2d;
+}
+
+header,
+main,
+form,
+ul,
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+header {
+  background-color: #81171b;
+}
+
+main {
+  form {
+    align-items: center;
+    section {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+    input {
+      height: 1em;
+      margin: 1em 1em 1em 0.2em;
+    }
+  }
+  li {
+    list-style: none;
+    background-color: #f26419;
+    padding: 0.5em;
+    border: 0.1em solid chocolate;
+    border-radius: 0.2em;
+    box-shadow: 0.25em 0.25em 0.25em #659157;
+    margin: 0.5em;
+  }
+}
+
+footer {
+  background-color: #6982b0;
 }
